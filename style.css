@@ -19,7 +19,6 @@ header .nav1 li{
 }
 /* nav 2 */
 section{
-<<<<<<< HEAD
 
 position: sticky;
   top: 0;       /* position fixed ki jaga sticky kia phir 
@@ -32,20 +31,6 @@ position: sticky;
   padding: 30px 2%;
   background: #FAF9F6;
   z-index: 999;
-=======
-  
-  position: sticky;
-    top: 0;       /* position fixed ki jaga sticky kia phir 
-    top margin 0 kia phir end pa z index add kia with 999 value*/
-    width: 100%;
-    height: 75px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 2%;
-    background: #FAF9F6;
-    z-index: 999;
->>>>>>> c6b70f9145d61f23c62131139ccfdd028de214f3
 }
 nav li{
   display: inline-block;
@@ -98,7 +83,6 @@ padding-left: 30px; padding-top: 20px;
 
 /* form */
 .container {
-<<<<<<< HEAD
 /* margin top 190 px kia 
 padding top 190px kia */
 margin-top: 190px;
@@ -107,16 +91,6 @@ background-color: rgba(182, 239, 73, 0.2);
 padding: 20px;
 border-radius: 10px;
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-=======
-  /* margin top 190 px kia 
-  padding top 190px kia */
-  margin-top: 190px;
-  padding-top: 190px;
-  background-color: rgba(182, 239, 73, 0.2);
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
->>>>>>> c6b70f9145d61f23c62131139ccfdd028de214f3
 }
 
 form {
@@ -207,18 +181,17 @@ transform: scale(1.2);
 transition: all ease-in-out;
 transition-duration: 0.5s;
 }
-.btn3 {
+button {
 color: #fff;
 background-color: #8dc63f !important;
 border: none;
-border-radius: 5px;
 padding: 1rem 2rem;
 cursor: pointer;
 }
-.btn3:hover {
-transform: scale(1.1);
-/* transition: all ease-in-out; */
-transition-duration: 0.3s;
+button:hover {
+transform: scale(1.2);
+transition: all ease-in-out;
+transition-duration: 0.5s;
 }
 
 .result {
@@ -228,17 +201,9 @@ text-align: center;
 .result p {
 font-size: 18px;
 }
-<<<<<<< HEAD
-
-/* countries image */
 .countries{
   width: 100%; height: 700px;
   padding-left: 60px; padding-right: 60px; padding-top: 80px;
-=======
- .countries{
-    width: 100%; height: 700px;
-    padding-left: 60px; padding-right: 60px; padding-top: 80px;
->>>>>>> c6b70f9145d61f23c62131139ccfdd028de214f3
 }
 .do{
   display: flex;
@@ -246,7 +211,7 @@ font-size: 18px;
   align-items: center;
   padding: 50px 60px;
 }
-.flex-container{
+.flex-containwer{
   width: 100%;
   height: auto;
   display: flex;
@@ -271,276 +236,153 @@ font-size: 18px;
 }
 .flex-box:hover { scale: 1.1;} 
 /**/
-<<<<<<< HEAD
-/* opacity .5s, transition .9s */
-/* .card-container{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-.images{
-  padding: 0 20px 20px;
-} */
-/* .card-container {
-  display: flex;
-  justify-content: space-around;
-  position: relative;
-  width: 100%;
-  height: 300px;
-  margin-top: 20px; ;
-  
-} */
 
-/* .card-container {
-  display: inline-block;
-  position: relative;
-  width: 400px;
-  height: 300px;
-  margin-left: 30px; margin-top: 20px;
-  
-}
+/*
 
-.d1-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 20px;
-}
-
-.overlay-heading {
-  position: absolute;
-  bottom: 70px; 
-  left: 10px; 
-  color: white;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 5px 10px;
-  z-index: 10;
-  margin: 0;
-}
-
-.overlay-button {
-  position: absolute;
-  width: 95%;
-  bottom: 20px; 
-  right: 5px;
-  padding: 10px 20px;
-  background-color: yellowgreen;
-  border-radius: 5px;
-  color: white;
-  border: none;
-  cursor: pointer;
-  font-size: 16px;
-}
-.d1-image:hover{
-  transform: scale(1.05);
-  transition-duration: 0.3s;
-} */
-
-/* 3 image */
-
-/* .card-container{
-  width: 100%;
-  height: auto;
-  display: flex;
-  /* justify-content: center; */
-/* }
-.images{
-  width: 400px;
-  height: 300px;
-  /* background: yellowgreen; */
-  /* text-align: center;
-  margin: 10px;
-  flex-direction: row;
-}
-.d1-image , .d2-image , .d3-image{
-  border-radius: 20px;
-  margin-left: 30px; margin-right: 10px; margin-top: 10px;
-} */ */ */
-
+aj ka code by abduu
+*/
 .home_funding {
-  margin-top: 30px;
-  display: flex;
-  justify-content: center;
+margin-top: 30px;
+display: flex;
+justify-content: center;
 }
 
 .funding_row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
 }
 
 .funding_box {
-  animation-duration: 1.5s !important;
-  animation-iteration-count: 1 !important;
-  cursor: pointer;
-  position: relative;
-  width: calc(33.333% - 20px);
-  margin-bottom: 20px;
-  border-radius: 10px;
-  overflow: hidden;
+animation-duration: 1.5s !important;
+animation-iteration-count: 1 !important;
+cursor: pointer;
+position: relative;
+width: calc(33.333% - 20px);
+margin-bottom: 20px;
+border-radius: 10px;
+overflow: hidden;
 }
 
 .funding_box img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+width: 100%;
+height: 100%;
+object-fit: cover;
 }
 
 .funding_box .fund_box {
- 
-  border-radius: 10px;
-  bottom: 0;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  justify-content: flex-end;
-  padding: 10px;
-  position: absolute;
-  width: 100%;
-  transition: opacity 0.3s;
-  
+
+border-radius: 10px;
+bottom: 0;
+display: flex;
+flex-direction: column;
+height: 100%;
+justify-content: flex-end;
+padding: 10px;
+position: absolute;
+width: 100%;
+transition: opacity 0.3s;
+
 }
 
 .funding_box:hover .fund_box {
-  background-color: rgba(0, 0, 0, 0.6);
-  opacity: 1;
+background-color: rgba(0, 0, 0, 0.6);
+opacity: 1;
 }
 
 .funding_box .fund_box h5 {
-  margin: 0 0 10px 0;
-  color: white;
+margin: 0 0 10px 0;
+color: white;
 }
 
 .funding_box .fund_box button {
-  background-color: #8dc63f;
-  border: none;
-  font-size: 14px !important;
-  outline: none;
-  padding: 10px 30px;
-  width: 95%;
- 
-  color: white;
-  cursor: pointer;
-  border-radius: 5px;
+background-color: #8dc63f;
+border: none;
+font-size: 14px !important;
+outline: none;
+padding: 10px 30px;
+width: 100%;
+
+color: white;
+cursor: pointer;
+border-radius: 5px;
 }
 
 
-/* .container2 {
-  position: relative;
-  width: 640px;
-  
-  height: 500px;
-  
-  overflow: hidden;
+.container2 {
+position: relative;
+width: 48% ;
+bottom: 0;
+height: 50% ;
+right: 20px;
+left: 20px;
 
-  float: left;
+
+
+float: left;
+
+
+
  
-  margin-left: 20px;
- 
-   
 }
 
 .container2 img {
-  border-radius: 60px 0 0 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+border-radius: 60px 0 0 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
 }
 
 .line {
-  position: absolute;
-  background-color: rgb(243, 238, 238);
+position: absolute;
+background-color: rgb(243, 238, 238);
 }
 
 .vertical-line {
-  width: 2px;
-  height: 100%;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
+width: 2px;
+height: 100%;
+top: 0;
+bottom: 0;
+left: 50%;
+transform: translateX(-50%);
 }
 
 .horizontal-line {
-  height: 2px;
-  width: 100%;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+height: 2px;
+width: 100%;
+left: 0;
+right: 0;
+top: 50%;
+transform: translateY(-50%);
 }
 
 .text-box {
-  background-color: aliceblue;
-  border-radius: 0 0 0 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 50%;
-  
-  height: 50%;
- 
-  background-color: #8dc63f !important;
-  border-radius: 60px 0 0 0;
-  
+background-color: aliceblue;
+border-radius: 0 0 0 0;
+position: absolute;
+top: 0;
+left: 0;
+width: 50%;
 
-  z-index: 2;
-  
-  padding: 0px;
+height: 50%;
+
+background-color: #8dc63f !important;
+border-radius: 60px 0 0 0;
+
+
+z-index: 2;
+
+padding: 0px;
 }
 
 .text2 {
-  
-  font-family: inherit;
-  margin-top: 0;
-  word-break: break-word;
-  color: #fff;
-  font-size: 29px;
-  font-weight: 600;
-  line-height: 1.35;
-  margin-bottom: .5em;
-
-
-} */
-
-img{
-  max-width: 450px;
-  
+font-family: inherit;
+margin-top: 0;
+word-break: break-word;
+color: #fff;
+font-size: 25px;
+font-weight: 600;
+line-height: 1.35;
+margin-bottom: .5em;
+margin-left: 50px;
 }
-.txt-flexbox{
-  float: right;
-  margin-right: 50px;
-}
-.txt-col{
-  color: rgb(91, 177, 230);
-  font-weight: bold;
-}
-
-/* calculation */
-
-/* .proj-img{
-  width: 600px;
-  height: 400px;
-  padding-left: 30px; padding-top: 20px;
-}
-.container2{
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: row;
-}
-.txt-flexbox{
-  width: 700px;
-  height: 400px;
-  background: rgb(220, 243, 173);
-  color: black;
-  font-size: 13px;
-  text-align: left;
-  border-radius: 20px;
-} */
-=======
-
-
->>>>>>> c6b70f9145d61f23c62131139ccfdd028de214f3
