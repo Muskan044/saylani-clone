@@ -19,6 +19,7 @@ header .nav1 li{
 }
 /* nav 2 */
 section{
+<<<<<<< HEAD
 
 position: sticky;
   top: 0;       /* position fixed ki jaga sticky kia phir 
@@ -31,6 +32,20 @@ position: sticky;
   padding: 30px 2%;
   background: #FAF9F6;
   z-index: 999;
+=======
+  
+  position: sticky;
+    top: 0;       /* position fixed ki jaga sticky kia phir 
+    top margin 0 kia phir end pa z index add kia with 999 value*/
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 2%;
+    background: #FAF9F6;
+    z-index: 999;
+>>>>>>> c6b70f9145d61f23c62131139ccfdd028de214f3
 }
 nav li{
   display: inline-block;
@@ -83,6 +98,7 @@ padding-left: 30px; padding-top: 20px;
 
 /* form */
 .container {
+<<<<<<< HEAD
 /* margin top 190 px kia 
 padding top 190px kia */
 margin-top: 190px;
@@ -91,6 +107,16 @@ background-color: rgba(182, 239, 73, 0.2);
 padding: 20px;
 border-radius: 10px;
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+=======
+  /* margin top 190 px kia 
+  padding top 190px kia */
+  margin-top: 190px;
+  padding-top: 190px;
+  background-color: rgba(182, 239, 73, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+>>>>>>> c6b70f9145d61f23c62131139ccfdd028de214f3
 }
 
 form {
@@ -202,11 +228,17 @@ text-align: center;
 .result p {
 font-size: 18px;
 }
+<<<<<<< HEAD
 
 /* countries image */
 .countries{
   width: 100%; height: 700px;
   padding-left: 60px; padding-right: 60px; padding-top: 80px;
+=======
+ .countries{
+    width: 100%; height: 700px;
+    padding-left: 60px; padding-right: 60px; padding-top: 80px;
+>>>>>>> c6b70f9145d61f23c62131139ccfdd028de214f3
 }
 .do{
   display: flex;
@@ -239,6 +271,7 @@ font-size: 18px;
 }
 .flex-box:hover { scale: 1.1;} 
 /**/
+<<<<<<< HEAD
 /* opacity .5s, transition .9s */
 /* .card-container{
   display: flex;
@@ -507,3 +540,7 @@ img{
   text-align: left;
   border-radius: 20px;
 } */
+=======
+
+
+>>>>>>> c6b70f9145d61f23c62131139ccfdd028de214f3
