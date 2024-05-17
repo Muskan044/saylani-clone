@@ -371,4 +371,254 @@ justify-content: center;
 align-items: center;
 padding: 50px 60px;
 } 
+/* yt cards */
 
+.yt-cards{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 50px;
+}
+.card{
+  width: 200px;
+  height: 200px;
+  background: #8dc63f;
+  color: black;
+  text-align: left;
+  margin: 10px;
+  border-radius: 20px;
+}
+/* news */
+.news{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 60px;
+  } 
+
+  .news-card{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 50px;
+  }
+  .card2{
+    width: 200px;
+    height: 200px;
+    /* background: #8dc63f; */
+    color: black;
+    text-align: left;
+    margin: 10px;
+    border-radius: 20px;
+  }
+  .card-body2{
+    background: #DCDCDC;
+  }
+  .cards-btn{
+    background: #8dc63f;
+  }
+
+  /*  */
+  .background-Guide {
+    background-color: #0d6db7;
+    background-image: url(pics-logos/guide_back.3a5127e910c15a49f875.png);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 140px;
+    margin-bottom: 30px;
+    padding-top: 40px;
+    
+}
+.Guide-content {
+    text-align: center;
+    margin-bottom: .5em;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.35;
+    margin-top: 5px;
+}
+
+.input-Guide {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    padding-top: 30px;
+}
+
+input[type="text"] {
+    display: block;
+    padding: 20px;
+    width: 500px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    outline: none;
+    font-size: 20px;
+    font-weight: 200;
+    font-weight: bold;
+    
+}
+
+.sub-btn{
+
+    vertical-align: middle;
+    margin-top: 5px;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 540px;
+    margin-bottom: 30px;
+}
+
+/* footer */
+
+.foot-sec {
+  background-image: url('pics-logos/bgfotter.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  padding: 20px 0;
+  background-color: #6e6a6a;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.wrap {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+  vertical-align: middle;
+}
+
+.flex-row2 {
+  
+  vertical-align: middle;
+}
+
+.copy-info {
+  padding: 15px;
+}
+
+.col-12,
+.col-2,
+.col-5,
+.col-4 {
+  margin-left: 50px;
+  padding: 15px;
+}
+
+.logo-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.social a {
+  display: inline-block;
+  margin-right: 10px;
+  border-radius: 5px;}
+
+.social img {
+  margin-top: 30px;
+  
+  align-items: center;
+  border-style: none;
+  cursor: pointer;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  margin-left: 10px;
+  width: 40px;
+  z-index: inherit;
+  border-radius: 5px;
+ }
+
+.about,
+.explore,
+.contact {
+  
+  margin-bottom: 20px;
+ padding-left: 10px; 
+     
+}
+
+.about h4,
+.explore h4,
+.contact h4 {
+  text-decoration: none;
+}
+
+.about ul,
+.explore ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about ul li,
+.explore ul li {
+  margin-bottom: 10px;
+}
+
+.about ul li a,
+.explore ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.about ul li a:hover,
+.explore ul li a:hover {
+  text-decoration: underline;
+}
+
+.contact p {
+  margin: 5px 0;
+}
+
+.contact a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.copy-right {
+  text-align: center;
+  
+  border-top: 1px solid #555;
+}
+
+.copy-right img {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.twitter{
+  color: white;
+  background-color:black;
+  -webkit-filter: invert(100%) !important;
+  filter: invert(100%) !important;
+  
+}
+.whatsapp {
+      background: green;
+     
+}
